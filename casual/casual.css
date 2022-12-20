@@ -107,13 +107,17 @@ section{
 }
 
 .nbimg{
-  display: block;
-  position: absolute;
-  height: 100vh;
-  width: 46vw;
+
+
+  width: 60vw;
+  height: auto;
   object-fit: cover;
+ 
+}
+.nbleft{
   margin-left: auto;  
 }
+
 
 
 

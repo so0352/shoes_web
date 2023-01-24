@@ -1,0 +1,19 @@
+body{
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+    
+    
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  .link {
+      text-decoration: none;
+    }
+  .headimg{
+      height: 80vh;
+      width: 100%;
+      object-fit: cover;
+  }

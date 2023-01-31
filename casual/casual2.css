@@ -123,6 +123,11 @@ section{
   height: auto;
   
 }
+
+.nike{
+  position: relative;
+
+}
 .niketext{
   font-family: 'Archivo Black', sans-serif;
   font-size: 600%;
@@ -269,4 +274,3 @@ bottom: 0;
 .button_line a:hover:after {
 width: 0;
 }
-

@@ -128,12 +128,12 @@ section{
   font-size: 500%;
   text-align: center;
   position: relative;
-  top: -10vh;
+  top: -5vh;
 }
 
 .clarkstext{
   font-family: 'Archivo Black', sans-serif;
-  font-size: 370%;
+  font-size: 400%;
   position: relative;
   top: -3vh;
 }

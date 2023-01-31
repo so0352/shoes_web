@@ -14,8 +14,8 @@
   }
 
  
-.nikelogo{
-  width: 20%;
+.nblogo{
+  width: 15%;
   height: auto;
   position: relative;
   left: 0px;
@@ -28,10 +28,11 @@
 }
 
   
-.airforce_top{
-  margin-top: -350px;
+.nb_top{
+  margin-top: -155px;
+  margin-left: 11vw;
   height: 80vh;
-  width: 100%;
+  width: 60%;
   object-fit: cover;
 }
 .bottom{
@@ -40,11 +41,11 @@
 }
 
 
-.dunklow_top{
-  margin-top: -250px;
-  margin-left: 10vw;
+._574_top{
+  margin-top: -180px;
+  margin-left: 15vw;
   height: 80vh;
-  width: 70%;
+  width: 55%;
   object-fit: cover;
 }
 

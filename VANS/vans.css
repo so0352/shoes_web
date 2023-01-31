@@ -14,8 +14,8 @@
   }
 
  
-.nikelogo{
-  width: 20%;
+.vanslogo{
+  width: 13%;
   height: auto;
   position: relative;
   left: 0px;
@@ -28,10 +28,11 @@
 }
 
   
-.airforce_top{
-  margin-top: -350px;
+.slipon_top{
+  margin-top: -155px;
+  margin-left: 25vw;
   height: 80vh;
-  width: 100%;
+  width: 60%;
   object-fit: cover;
 }
 .bottom{
@@ -40,14 +41,21 @@
 }
 
 
-.dunklow_top{
+.oldskool_top{
   margin-top: -250px;
-  margin-left: 10vw;
+  margin-left: 18vw;
   height: 80vh;
-  width: 70%;
+  width: 65%;
   object-fit: cover;
 }
 
+.auth_top{
+  margin-top: -140px;
+  margin-left: 25vw;
+  height: 80vh;
+  width: 50%;
+  object-fit: cover;
+}
 
 
 

@@ -14,8 +14,8 @@
   }
 
  
-.nikelogo{
-  width: 20%;
+.converselogo{
+  width: 13%;
   height: auto;
   position: relative;
   left: 0px;
@@ -26,28 +26,41 @@
   font-size: 1200%;
   text-align: center;
 }
+.ct{
+  font-size: 1000%;
+}
 
   
-.airforce_top{
-  margin-top: -350px;
+.allstar_top{
+  margin-top: -290px;
+  margin-left: 10vw;
   height: 80vh;
-  width: 100%;
+  width: 80%;
   object-fit: cover;
 }
+
+
 .bottom{
   width: 25%;
   height: auto;
 }
 
 
-.dunklow_top{
-  margin-top: -250px;
-  margin-left: 10vw;
+.ct70_top{
+  margin-top: -60px;
+  margin-left: 20vw;
   height: 80vh;
-  width: 70%;
+  width: 55%;
   object-fit: cover;
 }
 
+.Jack_top{
+  margin-top: -140px;
+  margin-left: 15vw;
+  height: 80vh;
+  width: 60%;
+  object-fit: cover;
+}
 
 
 

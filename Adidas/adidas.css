@@ -14,8 +14,8 @@
   }
 
  
-.nikelogo{
-  width: 20%;
+.adidaslogo{
+  width: 13%;
   height: auto;
   position: relative;
   left: 0px;
@@ -28,10 +28,11 @@
 }
 
   
-.airforce_top{
-  margin-top: -350px;
+.Superstar_top{
+  margin-top: -155px;
+  margin-left: 25vw;
   height: 80vh;
-  width: 100%;
+  width: 60%;
   object-fit: cover;
 }
 .bottom{
@@ -40,14 +41,21 @@
 }
 
 
-.dunklow_top{
-  margin-top: -250px;
-  margin-left: 10vw;
+.Stansmith_top{
+  margin-top: -180px;
+  margin-left: 25vw;
+  height: 80vh;
+  width: 65%;
+  object-fit: cover;
+}
+
+.samba_top{
+  margin-top: -180px;
+  margin-left: 20vw;
   height: 80vh;
   width: 70%;
   object-fit: cover;
 }
-
 
 
 

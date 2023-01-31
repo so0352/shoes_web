@@ -14,8 +14,8 @@
   }
 
  
-.nikelogo{
-  width: 20%;
+.martenslogo{
+  width: 13%;
   height: auto;
   position: relative;
   left: 0px;
@@ -26,13 +26,24 @@
   font-size: 1200%;
   text-align: center;
 }
+._1460{
+  font-size: 1000%;
+}
+._1461{
+  font-size: 900%;
+}
+._2976{
+  font-size: 800%;
+}
 
   
-.airforce_top{
-  margin-top: -350px;
+._1460_top{
+  margin-top: -155px;
+  margin-left: 25vw;
   height: 80vh;
-  width: 100%;
+  width: 45%;
   object-fit: cover;
+  object-position: 0% 65%;
 }
 .bottom{
   width: 25%;
@@ -40,14 +51,22 @@
 }
 
 
-.dunklow_top{
-  margin-top: -250px;
-  margin-left: 10vw;
+._1461_top{
+  margin-top: -110px;
+  margin-left: 18vw;
   height: 80vh;
-  width: 70%;
+  width: 65%;
   object-fit: cover;
+  object-position: 0% 100%;
 }
 
+._2976_top{
+  margin-top: 0px;
+  margin-left: 25vw;
+  height: 80vh;
+  width: 50%;
+  object-fit: cover;
+}
 
 
 

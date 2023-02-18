@@ -23,13 +23,14 @@
 }
  
 .texts{
+  font-family: 'Archivo Black', sans-serif;
   font-size: 1200%;
   text-align: center;
 }
 
   
 .airforce_top{
-  margin-top: -350px;
+  margin-top: -300px;
   height: 80vh;
   width: 100%;
   object-fit: cover;
@@ -41,7 +42,7 @@
 
 
 .dunklow_top{
-  margin-top: -250px;
+  margin-top: -230px;
   margin-left: 10vw;
   height: 80vh;
   width: 70%;

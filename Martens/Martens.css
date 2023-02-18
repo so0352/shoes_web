@@ -1,12 +1,4 @@
-
-/*
-.logo{
-    transform: scale(.45);
-    position: absolute;
-    top: -2vh;
-    left: -8vh;
-  }
-  */
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
 
   section{
     margin: 15% 0;
@@ -23,6 +15,7 @@
 }
  
 .texts{
+  font-family: 'Bevan', cursive;
   font-size: 1200%;
   text-align: center;
 }

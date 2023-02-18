@@ -1,43 +1,51 @@
-body{
-    overflow-x: hidden;
-    margin:0;
-    padding:0;
-  }
-a{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+a {
   color: black;
   text-decoration: none;
 }
-.link {
-    text-decoration: none;
-  }
-.headimg{
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
-}
 
-.gray{
-  background-color: rgb(190, 190, 190);
-  border-bottom:rgb(170,170,170) 5px solid;
+.link {
   text-decoration: none;
 }
-.black{
-  color: rgb(0,0,0);
+
+.headimg {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
 }
-.white{
+
+.gray {
+  background-color: rgb(190, 190, 190);
+  border-bottom: rgb(170, 170, 170) 5px solid;
+  text-decoration: none;
+}
+
+.black {
+  color: rgb(0, 0, 0);
+}
+
+.white {
   color: white;
 }
-.center{
+
+.center {
   text-align: center;
 }
 
-.center_nb{
+.center_nb {
   text-align: center;
   position: relative;
   left: -3%;
 }
 
-.center_adidas{
+.center_adidas {
   text-align: center;
   position: relative;
   left: -8%;
@@ -45,57 +53,61 @@ a{
 
 
 
-.logo{
-    transform: scale(.45);
-    position: absolute;
-    top: -2vh;
-    left: -8vh;
-  }
-
-.logotxt{
-    font-family: 'Yeseva One', cursive;
-    color: black;
-    font-size: 500%;
-    text-decoration: none;
+.logo {
+  transform: scale(.45);
+  position: absolute;
+  top: -2vh;
+  left: -8vh;
 }
 
-.helloText{
+.logotxt {
+  font-family: 'Yeseva One', cursive;
+  color: black;
+  font-size: 500%;
+  text-decoration: none;
+}
+
+.helloText {
   position: absolute;
   top: 40vh;
   color: rgb(255, 255, 255);
   font-family: 'Tiro Devanagari Hindi', serif;
   font-size: 1000%;
-  
+
 }
 
-section{
+section {
   margin: 15% 0;
-  
+
 }
-.nike{
+
+.nike {
   margin-top: 20%;
 }
-.flex{
+
+.flex {
   display: flex;
 }
-.flex2{
+
+.flex2 {
   display: flex;
 }
-.flexcolumn{
+
+.flexcolumn {
   display: flex;
-  flex-flow:column;
+  flex-flow: column;
   text-align: center;
   font-size: 300%;
 }
 
-.imgleft{
+.imgleft {
   height: auto;
   width: 45%;
   object-fit: cover;
   margin-left: 3%;
 }
 
-.imgleft_converse{
+.imgleft_converse {
   height: auto;
   width: 45%;
   object-fit: cover;
@@ -104,7 +116,7 @@ section{
 }
 
 
-.imgright{
+.imgright {
   height: 80%;
   width: 50%;
   object-fit: cover;
@@ -112,71 +124,73 @@ section{
   margin-left: 3%;
 }
 
-.brandlogo{
+.brandlogo {
   width: 15%;
   height: auto;
   margin-left: 5%;
 }
 
-.brandlogo_nb{
+.brandlogo_nb {
   width: 15%;
   height: auto;
-  
+
 }
 
-.nike{
+.nike {
   position: relative;
 
 }
-.niketext{
+
+.niketext {
   font-family: 'Archivo Black', sans-serif;
   font-size: 600%;
   text-align: center;
 }
 
-.nbtext{
-  font-family: 'Archivo Black', sans-serif;
+.nbtext {
+  font-family: 'Work Sans', sans-serif;
   font-size: 370%;
   position: relative;
   top: -3vw;
 }
 
-.adidastext{
-  font-family: 'Archivo Black', sans-serif;
+.adidastext {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
   font-size: 600%;
   position: relative;
   top: -5vw;
 }
 
-.conversetext{
-  font-family: 'Archivo Black', sans-serif;
+.conversetext {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 400%;
   position: relative;
   top: -5vw;
 }
 
-.vanstext{
+.vanstext {
   font-family: 'Archivo Black', sans-serif;
   font-size: 600%;
   position: relative;
   top: -2vw;
 }
 
-.textposition{
+.textposition {
   position: relative;
   top: -2vw;
   font-size: 130%;
   font-family: 'Tiro Devanagari Hindi', serif;
 }
 
-.moretext{
+.moretext {
   text-align: right;
   margin-right: 5%;
   text-decoration: none;
 
 }
 
-.introduction{
+.introduction {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 65%;
   margin-left: 3%;
@@ -189,7 +203,7 @@ section{
 
 
 
-footer{
+footer {
   background-color: black;
   font-family: 'Tiro Devanagari Hindi', serif;
   font-size: 500%;
@@ -237,7 +251,7 @@ footer{
 
 
 
-.buttontext{
+.buttontext {
   font-family: 'Tiro Devanagari Hindi', serif;
 }
 
@@ -255,28 +269,29 @@ footer{
   transition: 0.3s ease-in-out;
   font-weight: 600;
 }
+
 .button_line a:before,
 .button_line a:after {
-position: absolute;
-width: 100%;
-height: 3px;
-content: '';
--webkit-transition: all .3s;
-transition: all .3s;
-background: #000;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  content: '';
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background: #000;
 }
 
 .button_line a:before {
-top: 0;
-left: 0;
+  top: 0;
+  left: 0;
 }
 
 .button_line a:after {
-right: 0;
-bottom: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .button_line a:hover:before,
 .button_line a:hover:after {
-width: 0;
+  width: 0;
 }
